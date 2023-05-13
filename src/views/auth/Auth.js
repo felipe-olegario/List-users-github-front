@@ -1,7 +1,7 @@
 import { React } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import service from '../../services/auth';
-import image from '../../photo-perfil.jpeg'
+import image from '../../../public/photo-perfil.jpeg'
 import './Auth.css'
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -20,7 +20,7 @@ export default () => {
 				<Card.Body>
 					<Card.Title>Card Title</Card.Title>
 					<Card.Text>
-						Hi, i like a lot this chalenger, i remembered some technologies and concepts, thank you so much. i really want this chance and i hope that you like of my project. Thank you for this oportunity, 
+						Hi, I like a lot this chalenger, I remembered some technologies and concepts, thank you so much. I really want this chance and I hope that you like of my project. Thank you for this oportunity, 
 					</Card.Text>
 					<Button variant="primary" onClick={startAuthentication}>Get start</Button>
 				</Card.Body>
