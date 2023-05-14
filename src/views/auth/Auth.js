@@ -1,7 +1,7 @@
 import { React } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import service from '../../services/auth';
-import image from '../../../public/photo-perfil.jpeg'
+import image from '../../photo-perfil.jpeg'
 import './Auth.css'
 
 // eslint-disable-next-line import/no-anonymous-default-export
